@@ -36,6 +36,6 @@ let multiplierPrice = 15;
  }
 /**
  * Fonction afficher coût amélioration multiplicateur
- */tellMultiplierPrice() {
+ */displayMultiplierPrice() {
     document.getElementById('runMultiplier').innerHTML = `Améliorer multiplicateur: ${multiplierPrice}`;
  }
