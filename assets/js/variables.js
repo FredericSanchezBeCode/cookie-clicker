@@ -1,1 +1,3 @@
-let score = 0;
+let scoreTotal = 0;
+let scoreOnClick = 1;
+let MultiplierPrice = 15;
