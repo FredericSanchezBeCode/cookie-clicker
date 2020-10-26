@@ -4,7 +4,7 @@ let scoreIncreaseOnClick = 1;
 ID HTML => score
 
 // Multiplier
-let MultiplierPrice = 15;
+let multiplierPrice = 15;
 ID HTML => runMultiplier
 
 //Auto-Clic
