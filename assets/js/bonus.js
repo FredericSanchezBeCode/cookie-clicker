@@ -1,14 +1,11 @@
-let isBonusAutoClickAllowed = false;
 
-// a particular event will change the status of isBonusAutoClickAllowed to true
-// ...
-
-function checkIfBonusAutoClick(){
-  if (isBonusAutoClickAllowed){
-    score++;
-    setTimeout(checkIfBonusAutoClick,500);
+// this code is in the buy auto-click button
+function autoClick(){
+  if (score > 20){
+    score+= 20;
+    updateScreen();
   }
+  setTimeout(autoClick,500);
 }
 
-checkIfBonusAutoClick();
 
