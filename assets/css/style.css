@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(66, 66, 68);
+}
+#blockLeft{
+    background-color: rgb(196, 196, 196);
+    margin-top: 5%;
+    box-shadow: 3px 3px 15px -3px #000000;
+}
+#blockRight{
+    background-color: rgb(196, 196, 196);
+    margin-top: 5%;
+    box-shadow: 3px 3px 15px -3px #000000;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/*IMAGE*/
+#cookie{
+    display: block;
+    margin: auto;
+}
+
+/*BUTTON*/
+#runClick{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#runMultiplier{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#runAutoClic{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#runBonus{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
