@@ -9,6 +9,7 @@ let multiplierPrice = 15;
     increaseMultiplierPrice();
     increaseScoreOnClick();
     displayMultiplier();
+    tellMultiplierPrice();
  }
 /**
  * Fonction acheter multiplicateur
