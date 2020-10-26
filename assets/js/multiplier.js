@@ -1,13 +1,23 @@
 let scoreTotal;
 let scoreOnClick = 1;
-/**
- * Fonction score
- */document.getElementById("button").addEventListener("click", function () {
-return scoreTotal;
-});
+let multiplierPrice = 15;
 
+
+ /**
+  * Fonction multiplicateur
+  */multiply() {
+    buyMultiplier();
+    increaseScoreOnClick();
+}
 /**
- * Fonction multiplicateur
+ * Fonction acheter multiplicateur
+ */buyMultiplier() {
+     scoreTotal = scoreTotal - multiplierPrice;
+     multiplierPrice = multiplierPrice * 1.15;
+     return Math.floor(multiplierPrice);
+ }
+/**
+ * Fonction augmenter multiplicateur
  */increaseScoreOnClick() {
     let scoreIncreaseOnClick = scoreIncreaseOnClick + 1;
     return scoreIncreaseOnClick;
