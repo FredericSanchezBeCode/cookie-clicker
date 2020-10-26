@@ -1,4 +1,4 @@
-let scoreTotal;
+let scoreTotal = 0;
 let scoreOnClick = 1;
 let multiplierPrice = 15;
 
@@ -26,7 +26,7 @@ let multiplierPrice = 15;
 /**
  * Fonction augmenter multiplicateur
  */increaseScoreOnClick() {
-    let scoreIncreaseOnClick = scoreIncreaseOnClick + 1;
+    let scoreOnClick = scoreOnClick + 1;
     return scoreIncreaseOnClick;
  }
 /**
