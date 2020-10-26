@@ -27,7 +27,7 @@ let multiplierPrice = 15;
  * Fonction augmenter multiplicateur
  */increaseScoreOnClick() {
     let scoreOnClick = scoreOnClick + 1;
-    return scoreIncreaseOnClick;
+    return scoreOnClick;
  }
 /**
  * Fonction afficher multiplicateur
