@@ -32,10 +32,10 @@ let multiplierPrice = 15;
 /**
  * Fonction afficher multiplicateur
  */displayMultiplier() {
-    document.getElementById("multiplier").innerHTML = `Multiplier x${scoreIncreaseOnClick}`
+    document.getElementById("multiplier").innerHTML = `Multiplicateur x${scoreIncreaseOnClick}`;
  }
 /**
  * Fonction afficher coût amélioration multiplicateur
  */tellMultiplierPrice() {
-    document.getElementById('runMultiplier').innerHTML = `Améliorer multiplicateur: ${multiplierPrice}`
+    document.getElementById('runMultiplier').innerHTML = `Améliorer multiplicateur: ${multiplierPrice}`;
  }
