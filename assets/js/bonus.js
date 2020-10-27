@@ -1,1 +1,1 @@
-
+const bonusPrice = 400;

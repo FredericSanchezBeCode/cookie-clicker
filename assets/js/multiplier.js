@@ -16,7 +16,7 @@ let multiplierPrice = 15;
  */buyMultiplier() {
     scoreTotal = scoreTotal - multiplierPrice;
     return scoreTotal;
- }
+}
 /**
  * Fonction augmenter prix multiplicateur
  */increaseMultiplierPrice() {
