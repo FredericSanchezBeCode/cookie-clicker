@@ -6,12 +6,12 @@ function Display() {
 }
 
 
-document.getElementById('runclick').addEventListener("click", function () {
+document.getElementById('runClick').addEventListener("click", function () {
     scoreTotal = scoreTotal + IncreaseOnClick;
     return scoreTotal;
     Display();
 }
-document.getElementById('runAutoclick').addEventListener("click", function () {
+document.getElementById('runAutoClick').addEventListener("click", function () {
     scoreTotal = scoreTotal - autoClickPrice;
     return scoreTotal;
     Display();
@@ -21,7 +21,12 @@ document.getElementById('runMultiplier').addEventListener('click', () =>{
     return scoreTotal;
     Display();
 }
-
+document.getElementById('runBonus').addEventListener('click', () =>{ 
+    scoreTotal = scoreTotal - bonusPrice;
+    return scoreTotal;
+    Display();
+}
+jj
 
 
     setInterval(function () {
