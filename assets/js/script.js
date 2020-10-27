@@ -16,6 +16,8 @@ let autoClick = new PowerUp(20, document.getElementById("runAutoClick"), 0);
 
 let powerUps = [multiplier, bonus, autoClick];
 
+console.log(multiplier.price);
+console.log(multiplier.button);
 /**
  * Fonction click manuel
  */ document.getElementById("runClick").addEventListener("click", () => {
@@ -35,14 +37,16 @@ let powerUps = [multiplier, bonus, autoClick];
 
 /**
  * Fonction de rafraîchissement du score
- */ setInterval(powerUps.forEach(checkPrice(), 100));
+ */ setInterval(powerUps.forEach((i) => checkPrice(i.price, i.button), 1000));
 
 /**
  * Fonction de contrôle du prix
- */ function checkPrice() {
-  if (canAfford(this.price)) {
-    activateButton(this.button);
-  }
+ */ function checkPrice(price, button) {
+  console.log(price, button.getAttribute("id"));
+  button.disabled = true;
+  /*  if (canAfford(price)) {
+     activateButton(this.button);
+  }*/
 }
 
 /**
@@ -51,7 +55,7 @@ let powerUps = [multiplier, bonus, autoClick];
   if (this.price <= scoreTotal) {
     return true;
   } else {
-    this.button.removeEventListener("click", buy(this.price));
+    //    this.button.removeEventListener("click", buy(this.price));
   }
 }
 
