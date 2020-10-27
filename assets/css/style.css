@@ -2,28 +2,44 @@ body{
     background-color: rgb(66, 66, 68);
 }
 #blockLeft{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(247, 247, 247);
     margin-top: 5%;
     box-shadow: 3px 3px 15px -3px #000000;
+    border-radius: 5px;
 }
 #blockRight{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(247, 247, 247);
     margin-top: 5%;
     box-shadow: 3px 3px 15px -3px #000000;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
+    color: rgb(247, 247, 247);
 }
 h2{
     text-align: center;
 }
+
 
 /*IMAGE*/
 #cookie{
     display: block;
     margin: auto;
 }
-
+/*ROTATE IMAGE*/
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+ 
+.rotating {
+    -webkit-animation: rotating 10s linear infinite;
+}
 /*BUTTON*/
 #runClick{
     display: block;
