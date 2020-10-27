@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="assets/images/cookie.png" type="image/png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,14 +25,17 @@
             </div>
 
             <div class="col-12 col-md-5 px-5" id="blockLeft">
+                <table>
+                    <tr>
+                        <td id="score" style="font-weight: bold;">0</td>
+                    </tr>
+                    <tr>
+                        <td id="multiplier" style="font-weight: bold;">X 1</td>
+                    </tr>
+                </table>
 
-                <p id="score">
-                    score :
-                </p>
-                <img id="cookie" src="assets/images/cookie.png" alt="cookie">
-                <button type="button" class="btn btn-dark" id="runClick">
-                    Click !
-                </button>
+                <!--<input type="image" id="runClick" class="rotating" src="assets/images/cookie.png" alt="cookie">-->
+                <img id="runClick" class="rotating" src="assets/images/cookie.png" alt="cookie">
             </div>
 
             <div class="col-12 col-md-1">
@@ -45,7 +49,7 @@
                     Multiplier :
                     Price :
                 </button>
-                <button type="button" class="btn btn-dark" id="runAutoClic">
+                <button type="button" class="btn btn-dark" id="runAutoClick">
                     Price :
                 </button>
                 <button type="button" class="btn btn-dark" id="runBonus">
