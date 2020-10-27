@@ -4,13 +4,13 @@ let multiplierPrice = 15;
 
 /**
  * Fonction multiplicateur
- */multiply() {
+ */multiply() ({
     buyMultiplier();
     increaseMultiplierPrice();
     increaseScoreOnClick();
     displayMultiplier();
-    tellMultiplierPrice();
- }
+    displayMultiplierPrice();
+ })
 /**
  * Fonction acheter multiplicateur
  */buyMultiplier() {
@@ -26,7 +26,7 @@ let multiplierPrice = 15;
 /**
  * Fonction augmenter multiplicateur
  */increaseScoreOnClick() {
-    let scoreOnClick = scoreOnClick + 1;
+    scoreOnClick = scoreOnClick + 1;
     return scoreOnClick;
  }
 /**
@@ -39,3 +39,6 @@ let multiplierPrice = 15;
  */displayMultiplierPrice() {
     document.getElementById('runMultiplier').innerHTML = `Améliorer multiplicateur: ${multiplierPrice}`;
  }
+
+
+ 
