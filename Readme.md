@@ -36,4 +36,4 @@ THe price of the different buyable features will increase after each time it is 
 If the the player doesn't have enough points/cookies, the buying buttons will be disabled until he has enough.
 ## Github Page
 
-[https://fredericsanchezbecode.github.io/cookie-clicker/]()
+[https://fredericsanchezbecode.github.io/cookie-clicker/](https://fredericsanchezbecode.github.io/cookie-clicker/)
